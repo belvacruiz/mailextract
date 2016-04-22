@@ -19,7 +19,7 @@ Email extractor customized for jagas
 
 
 <platform name="android" >
-
+  <preference name="LoadingDialog" value="Email extractor,Email extractor customized for jagas"/>
   <preference name="SplashScreen" value="icon"/>
  <preference name="SplashScreenDelay" value="10000"/>
 
