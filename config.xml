@@ -17,9 +17,15 @@ Email extractor customized for jagas
 <feature name="http://api.phonegap.com/1.0/network"/>
 <access origin="*" />
 
-<gap:splash src="icon.png"/>
-<preference name="SplashScreen" value="screen" />
-<preference name="SplashScreenDelay" value="10000" />
-<icon src="icon.png"/>
+
+<platform name="android" >
+
+  <preference name="SplashScreen" value="icon"/>
+ <preference name="SplashScreenDelay" value="10000"/>
+
+</platform>
+
+
+
 
 </widget>
