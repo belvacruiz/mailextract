@@ -18,7 +18,8 @@ Email extractor customized for jagas
 <access origin="*" />
 
 <gap:splash src="icon.png"/>
-
+<preference name="SplashScreen" value="screen" />
+<preference name="SplashScreenDelay" value="10000" />
 <icon src="icon.png"/>
 
 </widget>
