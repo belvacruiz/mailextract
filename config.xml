@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "1.0.0">
+
+<name>Email extractor</name>
+
+<description>
+Email extractor customized for jagas 
+</description>
+
+
+<feature name="http://api.phonegap.com/1.0/device"/>
+<feature name="http://api.phonegap.com/1.0/storage"/>
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+<access origin="*" />
+
+<gap:splash src="icon.png"/>
+
+<icon src="icon.png"/>
+
+</widget>
